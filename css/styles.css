@@ -7,11 +7,14 @@
   --text-hero-footer: #FFFFFF; 
 }
 
+
 body {
   font-family: var(--primary-font-family);
   color: var(--secondary-text-main);
   background-color: var(--text-hero-footer);
 }
+
+
 
 .list {
   list-style: none;
@@ -38,17 +41,48 @@ img {
 display: block;
 }
 
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
 
-
-
-
-
+.section {
+  padding-top: 120px;
+ padding-bottom: 120px;
+}
 
 /*====Шапка с навигацией====*/
 
+ 
+.header {
+display: flex;
+align-items: center;
+}
+.header-container {
+display: flex;
+align-items: center;
+}
+
+
+.navigation {
+display: flex;
+align-items: center;
+
+}
+
+.menu-list {
+display: flex;
+margin-right: 332px;
+}
+
+
 .logo {
+  margin-right: 76px;
   font-family: var(--secondary-font-family);
-  font-weight: 800;
+  font-weight: 800;  
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -69,6 +103,11 @@ display: block;
   color: var(--primary-text-main);
 }
 
+.menu-list items:not(:last-child) {
+  margin-right: 40px;
+  
+}
+
 .menu-list-item:hover,
 .menu-list-item:focus {
   color: #404bbf;
@@ -80,20 +119,31 @@ display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+ 
       
 }
 
+.contacts-list {
+  display: flex;
+  
+}
+
+  
 .contact-link {
    color: var(--secondary-text-main);
 }
+ 
+.contact-link:not(:last-child) {
+  margin-right: 40px;
+}
 
-.contact-link:hover,
+.contact-link:hover, 
 .contact-link:focus {
-  color: #404bbf;
+  color: #404bbf; 
 }
 
 /*====HERO=====*/
-
+ 
 .hero {
   background-color: #2E2F42;
 }
