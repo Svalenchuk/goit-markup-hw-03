@@ -82,11 +82,12 @@ align-items: center;
 .navigation {
 display: flex;
 align-items: center;
+padding: 24px 0;
 
 }
 
 .menu-list {
-display: flex;
+display: flex; 
 margin-right: 332px;
 }
 
@@ -110,15 +111,15 @@ margin-right: 332px;
 .menu-list-item {
   font-weight: 500; 
   font-size: 16px;
-  line-height: 1.50;
+  line-height: 1.50; 
   letter-spacing: 0.02em;
   color: var(--primary-text-main);
   
 }
 
-.menu-list-items {
-padding: 24px 0;
-}
+/*.menu-list-items {
+padding: 24px 0;  
+}*/
  
 .menu-list-items:not(:last-child) {
   margin-right: 40px;
