@@ -106,10 +106,6 @@ margin-right: 332px;
   color: var(--primary-text-main);
 }
 
-.menu-list { 
-padding: 24px 0;
-}
- 
 
 .menu-list-item {
   font-weight: 500; 
@@ -119,12 +115,16 @@ padding: 24px 0;
   color: var(--primary-text-main);
   
 }
+
+.menu-list-items {
+padding: 24px 0;
+}
  
 .menu-list-items:not(:last-child) {
   margin-right: 40px;
   
 }
-
+ 
 .menu-list-item:hover,
 .menu-list-item:focus {
   color: #404bbf;
@@ -427,7 +427,8 @@ margin-bottom: 72px;
   background: #ffffff;
   padding: 32px 16px;  
   border: 1px solid #E7E9FC;
-} 
+  border-top: none;
+}  
 
 .user-team-wrapper {
   border-top: none;
