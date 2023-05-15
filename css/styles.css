@@ -89,10 +89,9 @@ align-items: center;
 .menu-list {
 display: flex; 
 margin-right: 332px;
-padding: 24px 0; 
 }
 
-
+     
 .logo {
   margin-right: 76px;
   font-family: var(--secondary-font-family);
@@ -118,9 +117,10 @@ padding: 24px 0;
   
 }
 
-/*.menu-list-items {
-padding: 24px 0;  
-}*/
+.menu-list-items {
+  padding-top: 24px;
+  padding-bottom: 24px;  
+} 
  
 .menu-list-items:not(:last-child) {
   margin-right: 40px;
