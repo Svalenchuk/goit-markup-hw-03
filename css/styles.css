@@ -89,6 +89,8 @@ align-items: center;
 .menu-list {
 display: flex; 
 margin-right: 332px;
+padding: 24px 0;    
+
 }
 
      
@@ -114,8 +116,6 @@ margin-right: 332px;
   line-height: 1.50; 
   letter-spacing: 0.02em;
   color: var(--primary-text-main);
-  padding-top: 24px;
-  padding-bottom: 24px;  
   
 }
 
