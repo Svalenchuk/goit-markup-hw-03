@@ -66,15 +66,18 @@ padding-bottom: 120px;
 .header {
 display: flex;
 align-items: center;
+border-bottom: 1px solid #E7E9FC;
+ 
 }
 .header-container {
 display: flex;
 align-items: center;
 padding-top: 25px;
 padding-bottom: 25px;
+
 } 
-
-
+ 
+ 
 .navigation {
 display: flex;
 align-items: center;
@@ -352,8 +355,19 @@ margin-right: 332px;
 
 /*======Портфолио======*/
 
+.section.portfolio.section {
+  padding-top: 96px; 
+}
+
+.modal-items {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 72px;
+} 
    
 .modal-btn-portfolio {
+  padding: 12px 24px;  
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -367,12 +381,29 @@ margin-right: 332px;
   border-radius: 4px;
 }
 
+.modal-btn-item:not(:last-child) {
+  margin-right: 24px;
+} 
+
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
   background-color: #404BBF;
   color: var(--text-hero-footer);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -24px;
+  margin-top: -48px;
+}
+
+.portfolio-list-box { 
+  flex-basis: calc((100% - 72px) / 3);
+  margin-left: 24px;
+  margin-top: 48px;
 }
 
   .portfolio-card {
@@ -385,12 +416,19 @@ margin-right: 332px;
   background: url(4074365.jpg);
 }
 
-.portfolio-title {
+.portfolio-wrapper {
+  background: #ffffff;
+  padding: 32px 16px; 
+  border: 1px solid #E7E9FC;
+} 
+
+.portfolio-title { 
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-main);
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
