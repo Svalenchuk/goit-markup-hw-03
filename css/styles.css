@@ -82,13 +82,14 @@ align-items: center;
 .navigation {
 display: flex;
 align-items: center;
-padding: 24px 0;
+
 
 }
 
 .menu-list {
 display: flex; 
 margin-right: 332px;
+padding: 24px 0; 
 }
 
 
