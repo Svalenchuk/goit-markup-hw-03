@@ -14,20 +14,20 @@
 
 <body>
     <header class="header">
-    <div> class="container header-container">
+    <div class="container header-container">
 
     <nav class="navigation">
               <a class="logo link" href="./index.html">
                 Web<span class="accentlogo">Studio</span></a>
 
        <ul class="menu-list list">
-        <li class="menu-list items">
+        <li class="menu-list-items">
             <a class="menu-list-item link" href="./index.html">Studio</a>
         </li>
-        <li>
+        <li class="menu-list-items">
             <a class="menu-list-item link" href="./portfolio.html">Portfolio</a>
         </li>
-        <li>
+        <li class="menu-list-items">
             <a class="menu-list-item link" href="">Contacts</a>
         </li>
        </ul>
@@ -35,10 +35,10 @@
 
     <address class="contact">
        <ul class="contacts-list list">
-        <li>
+        <li class="contacts-links">
             <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
+        <li class="contacts-links">
             <a class="contact-link link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
         </li>
        </ul>
@@ -63,105 +63,123 @@
 
         <!--опис сайту-->
 
-        <section class="content">
-             <h2 class="content-title" hidden>content</h2>
+        <section class="content section">
+            <div class="container">
+             <h2 class="content-title title" hidden>content</h2>
             <ul class="content-list list">
-                <li>
+                <li class="content-item-box">
                     <h3 class="content-title">Strategy</h3>
                     <p class="content-item">Our goal is to identify the business
                         problem to walk away with the perfect and creative solution. </p>
                 </li>
-                <li>
+                <li class="content-item-box">
                     <h3 class="content-title">Punctuality</h3>
                     <p class="content-item">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
-                <li>
+                <li class="content-item-box">
                     <h3 class="content-title">Diligence</h3>
                     <p class="content-item">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                 </li>
-                <li>
+                <li class="content-item-box">
                     <h3 class="content-title">Technologies</h3>
                     <p class="content-item">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
+        </div>
         </section>
 
         <!--Галерея-->
 
-        <section class="gallery">
-            <h2 class="gallery-title">What are we doing</h2>
+        <section class="gallery section">
+            <div class="container">
+            <h2 class="gallery-title title">What are we doing</h2>
             <ul class=" gallery-items list">
-                <li>
+                <li class="gallery-items-box">
                     <img class="gallery-img" src="./images/gadgets/Rectangle711.jpg" 
                      alt="monitor"
                      width="360"
-                     height="300">
+                     height="300">  
                      
                 </li>
-                <li>
+                <li class="gallery-items-box">
                     <img class="gallery-img" src="./images/gadgets/Rectangle712.jpg" 
                     alt="screen"
                     width="360"
                     height="300">
                 </li>
-                <li>
+                <li class="gallery-items-box">
                     <img class="gallery-img" src="./images/gadgets/Rectangle713.jpg" 
                      alt="mobilephone"
                      width="360"
                      height="300">
                 </li>
             </ul>
-        </section>
+        </div>
+        </section> 
+ 
+        <!--співробітники--> 
 
-        <!--співробітники-->
-
-        <section class="user-team">
-            <h2 class="user-title">Our Team</h2>
+        <section class="user-team section">
+            <div class="container">
+            <h2 class="user-title title">Our Team</h2>
 
             <ul class="users-team  list">
-                <li class="users-list">
+                <li class="users-team-box">
                     <img class="users-team-foto" src="./images/staff/img1.jpg" 
                     alt="Mark Guerrero"
                     width="264"
                     height="260">
+                    <div class="user-team-wrapper">
                     <h3 class="user-name">Mark Guerrero</h3>
                     <p class="user-position">Product Designer</p>
+                </div>
                 </li>
-                <li class="users-list">
+                <li class="users-team-box">
                     <img class="users-team-foto" src="./images/staff/img2.jpg" 
                      alt="Tom Ford"
                      width="264"
                      height="260">
+                     <div class="user-team-wrapper">
                     <h3 class="user-name">Tom Ford</h3>
                     <p class="user-position">Frontend Developer</p>
+                </div>
                 </li>
-                <li class="users-list">
+                <li class="users-team-box">
                     <img class="users-team-foto" src="./images/staff/img3.jpg" 
                      alt="Camila Garcia"
                      width="264"
                      height="260">
+                     <div class="user-team-wrapper">
                     <h3 class="user-name">Camila Garcia</h3>
                     <p class="user-position">Marketing</p>
+                </div>
                 </li>
-                <li class="users-list">
+                <li class="users-team-box">
                     <img class="users-team-foto" src="./images/staff/img4.jpg" 
                      alt="Daniel Wilson"
                      width="264"
                      height="260">
+                     <div class="user-team-wrapper">
                     <h3 class="user-name">Daniel Wilson</h3>
                     <p class="user-position">UI Designer</p>
+                </div>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
 
-      <!--Контакты--> 
+      <!--Контакты-->  
 
     <footer class="contact-footer">
+        <div class="container">
         <a class="logo link" href="./index.html">
             Web<span class="accentlogo-contacts">Studio</span></a>
-        <p class="contact-item">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+            <div class="contact-item">
+        <p class="contact-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>
+    </div>
     </footer>
     
 </body>
-</html>
+</html> 
