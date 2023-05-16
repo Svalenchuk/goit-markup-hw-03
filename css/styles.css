@@ -76,6 +76,7 @@ border-bottom: 1px solid #E7E9FC;
 display: flex;
 align-items: center;
 justify-content: space-between;
+padding: 24px 0;
 
 }  
  
@@ -86,10 +87,10 @@ align-items: center;
 
 
 }
-
+ 
 .menu-list {
 display: flex;   
-padding: 24px 0;
+
  
 } 
 
