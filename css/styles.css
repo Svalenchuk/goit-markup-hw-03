@@ -70,6 +70,7 @@ padding-bottom: 120px;
 display: flex;
 align-items: center;
 border-bottom: 1px solid #E7E9FC;
+padding: 24px 0;
  
 }
 .header-container {
@@ -80,7 +81,7 @@ justify-content: space-between;
 }  
  
  
-.navigation {
+.navigation { 
 display: flex;
 align-items: center;
 
@@ -89,7 +90,7 @@ align-items: center;
 
 .menu-list {   
 display: flex;   
-padding: 24px 0;    
+    
 
 } 
 
@@ -109,8 +110,9 @@ padding: 24px 0;
   color: var(--primary-text-main);
 }
 
-
+ 
 .menu-list-item {
+  padding: 24px 0;
   font-weight: 500; 
   font-size: 16px;
   line-height: 1.50; 
