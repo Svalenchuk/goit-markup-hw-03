@@ -62,6 +62,20 @@ padding-bottom: 120px;
   border: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;  
+
+} 
+
 
 /*====Шапка с навигацией====*/
 
@@ -206,10 +220,6 @@ display: flex;
 
 /*=====Описание сайта=====*/
 
-.container-title{
-  visibility: hidden;
-} 
-
 .content-list {
   display: flex;
   flex-wrap: wrap; 
@@ -352,7 +362,7 @@ display: flex;
   text-transform: uppercase;
 }
 
-.accentlogo-contacts {
+.accentlogo-contacts { 
  color: #f4f4fd;
 }
 
